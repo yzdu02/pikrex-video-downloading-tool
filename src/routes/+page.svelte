@@ -43,6 +43,10 @@
         padding-bottom: 30px
       }
 
+      .section .button-list{
+        display: flex;
+      }
+
       .section button {
         width: 200px;
         height: 60px;
@@ -55,6 +59,7 @@
         text-decoration: bold;
         cursor: pointer;
         transition: background-color 0.3s ease;
+        margin-right: 20px;
       }
 
       .section button:hover {
@@ -119,7 +124,10 @@
 		</div>
 	</div>
 
-	<button on:click={downloadVideo}>⏬ Download video</button>
+  <div class="button-list">
+    <button>⬅️ Go Back</button>
+    <button on:click={downloadVideo}>⏬ Download Video</button>
+  </div>
 </div>
 
 <div class="section-footer">

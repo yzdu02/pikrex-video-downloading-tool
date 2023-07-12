@@ -4,7 +4,9 @@ A simple one-page web tool that allows users to view and download a video to the
 
 # Warning
 
-Currently, the video MP4 URL is hardcoded under src/routes/+page.js in the SAMPLE_VIDEO_URL variable. Ideally this will be a targetted MP4 URL fetched from the backend.
+1. Currently, the "Go Back" button does nothing.
+
+2. Currently, the video MP4 URL is hardcoded under src/routes/+page.js in the SAMPLE_VIDEO_URL variable. Ideally this will be a targetted MP4 URL fetched from the backend.
 
 ## How to run
 
