@@ -1,6 +1,6 @@
 # Pikrex Video Player and Downloader
 
-A simple one-page web tool that allows users to view and download a video to their local machine.
+A simple web tool that allows users to view and download a video to their local machine.
 
 # Warning
 
